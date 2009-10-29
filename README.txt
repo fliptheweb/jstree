@@ -23,6 +23,7 @@ If you use a plugin - it will alert you about a missing dependency.
 All themes are located in the themes/ dir. Make sure to keep it relative to the jquery.tree.js file, so that your chosen theme will be included.
 If that is not an option for you - search the documentation.html file for "theme_path".
 
+***
 For users upgrading from a previous version to 0.9.9:
 1) jQuery.tree_reference became jQuery.tree.reference (the function is also upgraded)
 2) jQuery.tree_focused became jQuery.tree.focused
@@ -37,4 +38,4 @@ For users upgrading from a previous version to 0.9.9:
 11) Drag, clickable, deletable rules are out of the picture. Enter type definitions - all types inherit from the "default" type. 
 You can now set valid children, max_depth, max_children, clickable, deletable, etc - any of those can also be functions, so you can dinamically check.
 It is all in the docs - check the "types" section. For global tree rules - check the "rules" config section.
-
+***
