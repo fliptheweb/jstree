@@ -38,4 +38,4 @@ For users upgrading from a previous version to 0.9.9:
 11) Drag, clickable, deletable rules are out of the picture. Enter type definitions - all types inherit from the "default" type. 
 You can now set valid children, max_depth, max_children, clickable, deletable, etc - any of those can also be functions, so you can dinamically check.
 It is all in the docs - check the "types" section. For global tree rules - check the "rules" config section.
-***
+****
